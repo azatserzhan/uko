@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <script type="text/javascript" src="libs/jquery.js"></script>
+    <script type="text/javascript" src="libs/jquery-ui.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase.js"></script>
+</head>
+
+<body>
+    <!-- <iframe id="main-container" src="https://goo.gl/maps/HEkJTMHEvC52" frameborder="0"></iframe> -->
+    <div id="intro">Древний город Туркестан</div>
+    <div id="info-box">
+    	<div id="info-head"></div>
+    	<div id="info-title"></div>
+    	<div id="info-audio" class="button"><img id="audio-icon" src="images/audio.png">Аудио гид</div>
+    </div>
+    <div id="header">
+    	<div class="city">Туркестан</div>
+    </div>
+    <iframe id="main-container" src="" style="border:0" allowfullscreen></iframe>
+    <div id="footer">
+    </div>
+
+    <div id="send-box">
+        <div id="send-title">Добавить объект</div>
+        <div id="send-content">
+            <input id="send-name" type="text" placeholder="Название">
+            <input id="send-url" type="text" placeholder="url">
+            <textarea id="send-val" cols="30" rows="10" placeholder="Описание"></textarea>
+            <div id="send-btn" class="button">Отправить</div>    
+        </div>
+        
+    </div>
+
+</body>
+
+    <script type="text/javascript" src="js/logic.js"></script>
+
+</html>
